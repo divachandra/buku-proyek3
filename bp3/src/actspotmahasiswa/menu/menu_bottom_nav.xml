@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_progress"
+        android:title="Progress"
+        android:icon="@drawable/ic_date_range_white"/>
+    <item
+        android:id="@+id/menu_absence"
+        android:title="Absensi"
+        android:icon="@drawable/ic_portrait_white"/>
+    <item
+        android:id="@+id/menu_notification"
+        android:title="Notifikasi"
+        android:icon="@drawable/ic_notifications_white"/>
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profil"
+        android:icon="@drawable/ic_person_white"/>
+</menu>

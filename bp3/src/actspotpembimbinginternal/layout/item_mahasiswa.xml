@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="5dp"
+    android:layout_marginHorizontal="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_mahasiswa"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profile"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="14dp">
+
+        <TextView
+            android:id="@+id/tv_mahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Kadek Diva Krishna Murti"/>
+
+        <TextView
+            android:id="@+id/tv_perusahaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Politeknik Pos Indonesia"/>
+
+        <TextView
+            android:id="@+id/tv_angkatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2017"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_presentase"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="100%"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

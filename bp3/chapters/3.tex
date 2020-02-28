@@ -1,0 +1,65 @@
+\section{Teori}
+\subsection{Fungsi}
+Fungsi adalah sebuah blok kode yang memiliki nama fungsi dan kode program didalamnya jika dijalankan maka fungsi itu akan mengembalikan nilai. Fungsi dapat dipanggil berkali-kali sesuai dengan nama fungsi yang telah didefenisikan. Fungsi memiliki nilai kembalian (return). Contoh fungsi
+\begin{lstlisting}[language=Python]
+def nambahinAngka(angka1, angka2): 
+	hasil = angka1 + angka2 
+	return hasil
+\end{lstlisting}
+
+Apabila kita dapat memberikan nilai ke angka1 dan angka2, dan apa bila sudah diberi nilai dan program sudah dijalankan, maka program pun akan mengembalikan nilai berupa hasil dari penjumlahan angka 1 dan angka 2.
+
+\section{Package}
+Package merupakan sekumpulan modul yang dikemas oleh programmer dengan tujuan agar mempermudah dalam pembuatan kode program. Kita dapat membuat sebuah kode program atau fungsi didalamnya dan dapat secara mudah menggunakan kode program itu dengan cara memanggilnya pada kode program lainnya atau import package. Contoh nya adalah sebagai berikut
+\begin{lstlisting}[language=Python]
+def my_biodata(nama, umur): 
+	bio = "nama saya " + nama + " umur saya " + umur 
+	return bio 
+
+def my_study(kampus, prodi): 
+	study = "saya berkuliah di " + kampus + " program studi " + prodi
+	return study
+\end{lstlisting}
+Kode diatas merupakan isi dari ﬁle fungsi.py, sedangkan saya ingin menjalankan program fungsi.py pada main.py sehingga kode program pada ﬁle main.py akan dituliskan seperti berikut:
+\begin{lstlisting}[language=Python]
+import fungsi
+nama = "Dinda Majesty" 
+umur = "19 Tahun" 
+biodata = my_biodata(nama, umur) 
+print(biodata)
+
+kampus = "Politeknik Pos Indonesia" 
+prodi = "D4-Teknik Informatika" 
+kuliah = my_study(kampus, prodi) 
+print(kuliah)
+\end{lstlisting}
+Kode program pada ﬁle main.py akan mengimport kode program yang ada pada ﬁle fungsi.py, sehingga dengan adanya fungsi dan package kita dapat dengan mudah melakukan pemanggilan fungsi yang telah kita deskripsikan sebelumnya, walaupun berada pada ﬁle python yang berbeda.
+
+\section{Class, Object, Atribute, and Method}
+Class atau Kelas merupakan sebuah blueprint/kerangka dari objek yang berisi fungsi dan dibuat untuk mendefenisikan objek dengan atribut yang sesuai dengan kelas yang telah dibuat yang nantinya akan diinisiasikan. Objek adalah sebuah wujud yang dapat kita lakukan perintah sesuai dengan methodnya,Sebuah kelas harus memiliki objek yang nantinya akan di kodekan sesuai dengan fungsi yang telah dibuat pada kelas, tanpa adanya objek sebuah kelas tidak akan bisa menjalankan fungsi-fungsi didalamnya. Atribut berisi variabel yang memiliki tipe data dan dapat kita berikan pada objek, atribut ada 2 yaitu kelas atribut dan instansi atribut, perbedaannya hanya di letak, kalau kelas atribut ada di bawah kelas, dan instansi atribut ada didalam fungsi, atribut itu sebuah variabel yang dimiliki oleh parentnya seperti fungsi atau class. .Method merupakan kode program yang berisi tindakan atau perintah untuk menjalankan objek.
+\begin{lstlisting}[language=Python]
+class Fungsi(object): 
+
+def Nama(self, namakamu):
+self.kamu = namakamu
+\end{lstlisting}
+
+\section{Pemanggilan Class}
+Pemanggilan library kelas dapat dilakukan dengan cara import dan membuat objek dari kelas tersebut. Contohnya, kita memiliki ﬁle python yang diberi nama ngitung dan didalamnya terdapat class Ngitung yang memiliki banyak fungsi didalamnya. Untuk melakukan pemanggilan class maka kita bisa mengetikkan kode seperti berikut.
+\begin{lstlisting}[language=Python]
+import Fungsi
+\end{lstlisting}
+
+\section{Pemakaian Package Fungsi Apabila File Didalam Folder}
+Pemakaian Package fungsi apabila ﬁle terdapat didalam sebuah folder maka kita bisa menggunakan from folder import ﬁle dan from ﬁle import fungsi. Contohnya, kita memiliki folder src yang didalamnya terdapat ﬁle fungsi.py dan didalam fungsi.py terdapat fungsi Berhitung, untuk mengimportkan fungsi maka kita dapat mengetikkan kode seperti berikut.
+\begin{lstlisting}[language=Python]
+from src import fungsi 
+from fungsi import Berhitung
+\end{lstlisting}
+
+\section{Pemakaian Package Kelas Apabila File didalam Folder}
+Pemakaian package kelas apabila ﬁle terdapat didalam sebuah folder maka kita bisa menggunakan from folder import ﬁle dan from ﬁle import kelas. Contohnya, kita memiliki folder src yang didalamnya terdapat ﬁle fungsi.py dan didalam fungsi.py terdapat kelas Ngitung, maka untuk melakukan import kelas kita dapat mengetikkan kode sebagai berikut.
+\begin{lstlisting}[language=Python]
+from src import fungsi 
+Kelas = fungsi.Nama(namakamu)
+\end{lstlisting}
