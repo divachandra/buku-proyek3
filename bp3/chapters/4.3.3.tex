@@ -1,84 +1,175 @@
 \subsubsection{Pembimbing Eksternal}
+
+Selanjutnya kita akan membuat aplikasi Android untuk pembimbing eksternal (pembimbing perusahaan) menggunakan Android Studio. Jadi pastikan sebelumnya anda telah menginstall Android Studio. Pertama kita sesuaikan build.gradlenya menjadi seperti ini.
 \lstinputlisting{src/actspotpembimbingeksternal/build.gradle}
+
+Kemudian kita sesuaikan build.gradle kedua menjadi seperti ini.
 \lstinputlisting{src/actspotpembimbingeksternal/build2.gradle}
 
+Selanjutnya kita buat file model ConfirmAbsence.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/ConfirmAbsence.java}
+
+Setelah itu, kita buat file model ConfirmMahasiswa.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/ConfirmMahasiswa.java}
+
+Selanjutnya kita buat file model Login.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/Login.java}
+
+Setelah itu, kita buat file model Mahasiswa.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/Mahasiswa.java}
+
+Selanjutnya kita buat file model Notification.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/Notification.java}
+
+Setelah itu, kita buat file model ResponseConfirmAbsence.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/ResponseConfirmAbsence.java}
+
+Selanjutnya kita buat file model ResponseConfirmMahasiswa.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/ResponseConfirmMahasiswa.java}
+
+Setelah itu, kita buat file model ResponseInfo.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/ResponseInfo.java}
+
+Selanjutnya kita buat file model ResponseLogin.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/ResponseLogin.java}
+
+Setelah itu, kita buat file model ResponseNotification.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/ResponseNotification.java}
+
+Selanjutnya kita buat file model ResponseMahasiswa.java di package model. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/model/ResponseMahasiswa.java}
 
+Setelah itu, kita buat file SharedPrefManager.java di package util. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/util/SharedPrefManager.java}
+
+Selanjutnya kita buat file Urls.java di package util. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/util/Urls.java}
 
+Setelah itu, kita buat file APIClient.java di package api. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/api/APIClient.java}
+
+Selanjutnya kita buat file APIService.java di package api. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/api/APIService.java}
 
+Setelah itu, kita buat file custom\_edittext.xml di package drawable. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/drawable/custom_edittext.xml}
+
+Selanjutnya kita buat file state\_bottom\_navigation.xml di package drawable. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/drawable/state_bottom_navigation.xml}
 
+Setelah itu, kita buat file menu\_bottom\_nav.xml di package menu. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/menu/menu_bottom_nav.xml}
 
+Selanjutnya kita buat file activity\_detail\_mahasiswa.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/activity_detail_mahasiswa.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/activity/DetailMahasiswaActivity.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/activity_login.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/activity/LoginActivity.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/activity_notice.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/activity/NoticeActivity.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/activity_main.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/activity/MainActivity.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/activity_password.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/activity/PasswordActivity.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/activity_profile.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/activity/ProfileActivity.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/activity_register.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/activity/RegisterActivity.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/activity_text.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/activity/TextActivity.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/item_confirm_notification.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/adapter/ConfirmAbsenceAdapter.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/item_confirm_notification.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/adapter/ConfirmMahasiswaAdapter.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/item_mahasiswa.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/adapter/MahasiswaAdapter.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/item_notification.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/adapter/NotificationAdapter.java}
+
 
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/adapter/PageAdapter.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/fragment_absence_confirm.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/fragment/AbsenceConfirmFragment.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/fragment_confirmation.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/fragment/ConfirmationFragment.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/fragment_mahasiswa_confirm.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/fragment/MahasiswaConfirmFragment.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/fragment_notification.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/fragment/NotificationFragment.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/fragment_profile.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/fragment/ProfileFragment.java}
 
+Selanjutnya kita buat file activity\_detail\_progress.xml di package layout. Kemudian tambahkan script berikut di file tersebut.
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/layout/fragment_mahasiswa.xml}
+
+
 \lstinputlisting[language=Java]{src/actspotpembimbingeksternal/fragment/MahasiswaFragment.java}
 
+Selanjutnya tambahkan script berikut di file tersebut pada file AndroidManifest.xml
 \lstinputlisting[language=xml]{src/actspotpembimbingeksternal/AndroidManifest.xml}
