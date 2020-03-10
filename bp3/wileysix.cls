@@ -1848,20 +1848,21 @@ Kadek Diva Krishna Murti\\
 Chandra Kirana Poetra\\
 \vskip6.5pt
 
-ISBN : .................
+ISBN : xxx-xxx-xxxxx-x-x
 \vskip6.5pt
 
 {\locfont Editor:}\\
-Rayhan Prastya
+Kadek Diva Krishna Murti\\
+Chandra Kirana Poetra\\
 \vskip6.5pt
 
 {\locfont Penyunting:}\\
-Muhammad Wahyu Ardi Ismail\\
-Muchamad Innal Kariem\\
+Kadek Diva Krishna Murti\\
+Chandra Kirana Poetra\\
 \vskip6.5pt
 
 {\locfont Desain sampul dan Tata letak:}\\
-Deza Martha Akbar
+Kadek Diva Krishna Murti
 \vskip6.5pt
 
 {\locfont Penerbit:}\\
